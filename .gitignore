@@ -1,14 +1,18 @@
-# Python
 __pycache__/
 *.pyc
+*.pyo
 .env
+.venv/
 venv/
-env/
+*.egg-info/
+dist/
+build/
+.DS_Store
 
-# Data
-*.csv
-*.pkl
+# Data (download separately — see data/README.md)
+data/*.csv
+data/*.json
 
-# IDE
-.vscode/
-.idea/
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
